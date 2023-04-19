@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 0px;
+}
+
+p {
+    text-align: center;
+}
+
+p.bold {
+    font-size: 19px;
+    font-weight: 600;
+    color: #232929;
+    line-height: 27px;
+}
+
+.btn {
+    padding: 15px 50px;
+    margin: 50px 15px;
+    border-radius: 30px;
+    background-color: rgb(33, 179, 33);
+    color: #F1FAFA;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+
+#nav-bar {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+}
+
+#nav-bar-centered {
+    background-color: rgba(255, 255, 255, 1.0);
+    height: 100%;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#nav-bar-logo {
+    align-items: center;
+}
+
+#nav-bar-logo-img {
+    height: 50px;
+    margin-top: 10px;
+}
+
+#nav-bar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    float: right;
+    height: 100%;
+    background-color: white;
+    margin-left: 275px;
+}
+
+#nav-bar-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar-li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#nav-bar-li-leftmost {
+    margin-left: 0px;
+}
+
+.nav-bar-a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: #191A1B;
+}
+
+#nav-bar-eng-span {
+    margin: 0 25px;
+}
+
+#container-row-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#img-container-homepage-1 {
+    flex: 1;
+}
+
+#img-homepage-1 {
+    width: 100%;
+}
+
+#main-header-div {
+    flex: 1;
+    background-color: rgba(117, 117, 0, 0.4);
+    text-align: center;
+}
+
+#main-header-h1 {
+    margin-top: 125px;
+    margin-bottom: 10px;
+}
+
+#main-header-p {
+    margin: 0 150px;
+}
