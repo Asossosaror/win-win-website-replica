@@ -22,7 +22,7 @@ p {
 }
 
 p.bold {
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 600;
     color: #232929;
     line-height: 27px;
@@ -32,7 +32,7 @@ p.bold {
     padding: 15px 50px;
     margin: 50px 15px;
     border-radius: 30px;
-    background-color: rgb(33, 179, 33);
+    background-color: rgb(161, 188, 5);
     color: #F1FAFA;
     font-size: 16px;
     font-weight: 600;
@@ -116,7 +116,7 @@ p.bold {
 
 #main-header-div {
     flex: 1;
-    background-color: rgba(117, 117, 0, 0.4);
+    background-color: rgba(241, 244, 237, 1.0);
     text-align: center;
 }
 
@@ -127,4 +127,5 @@ p.bold {
 
 #main-header-p {
     margin: 0 150px;
+    color: #555555;
 }
