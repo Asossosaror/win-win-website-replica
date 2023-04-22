@@ -1,7 +1,10 @@
+* {
+    font-family: "Montserrat", system-ui, sans-serif;
+}
+
 body {
     margin: 0px;
     padding: 0px;
-    font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header {
@@ -13,15 +16,17 @@ header {
 h1 {
     text-align: center;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 48px;
+    color: #42424A;
     margin: 0px;
+    line-height: 50px;
 }
 
 p {
     text-align: center;
 }
 
-p.bold {
+.bold {
     font-size: 17px;
     font-weight: 600;
     color: #232929;
@@ -29,12 +34,12 @@ p.bold {
 }
 
 .btn {
-    padding: 15px 50px;
+    padding: 14px 60px;
     margin: 50px 15px;
     border-radius: 30px;
-    background-color: rgb(161, 188, 5);
-    color: #F1FAFA;
-    font-size: 16px;
+    background-color: rgb(171, 201, 5);
+    color: #FFFFFF;
+    font-size: 15px;
     font-weight: 600;
     border: none;
 }
@@ -55,6 +60,7 @@ p.bold {
 
 #nav-bar-logo {
     align-items: center;
+    padding-left: 15px;
 }
 
 #nav-bar-logo-img {
@@ -92,9 +98,9 @@ p.bold {
 
 .nav-bar-a {
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
-    color: #191A1B;
+    color: #42424A;
 }
 
 #nav-bar-eng-span {
@@ -108,24 +114,38 @@ p.bold {
 
 #img-container-homepage-1 {
     flex: 1;
+    background-image: url("images/homepage-people-1.jpg");
+    background-size: cover;
 }
 
-#img-homepage-1 {
-    width: 100%;
-}
 
 #main-header-div {
     flex: 1;
+    padding: 120px 0px;
+    padding-bottom: 70px;
     background-color: rgba(241, 244, 237, 1.0);
     text-align: center;
+    height: fit-content;
 }
 
 #main-header-h1 {
-    margin-top: 125px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #main-header-p {
     margin: 0 150px;
     color: #555555;
+}
+
+.introduction-div {
+    background-color: white;
+    z-index: 10;
+    position: relative;
+    padding-top: 80px;
+}
+
+#introduction-p {
+    padding-top: 30px;
+    margin: 0 34.5%;
+    line-height: 29px;
 }
