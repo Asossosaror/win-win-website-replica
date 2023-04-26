@@ -24,6 +24,9 @@ h1 {
 
 p {
     text-align: center;
+    line-height: 26px;
+    color: #434354;
+    font-size: 16px;
 }
 
 .bold {
@@ -42,6 +45,10 @@ p {
     font-size: 15px;
     font-weight: 600;
     border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
 }
 
 #nav-bar {
@@ -105,6 +112,7 @@ p {
 
 #nav-bar-eng-span {
     margin: 0 25px;
+    cursor: pointer;
 }
 
 #container-row-1 {
@@ -148,4 +156,33 @@ p {
     padding-top: 30px;
     margin: 0 34.5%;
     line-height: 29px;
+}
+
+#two-column-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.column {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+    max-width: 575px;
+}
+
+#first-column {
+    margin-left: 10px;
+}
+
+#second-column {
+    margin-left: 20px;
+}
+
+.column p {
+    text-align: left;
+}
+
+.column p:not(.bold) {
+    margin-bottom: 40px;
 }
