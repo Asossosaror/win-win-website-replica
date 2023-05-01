@@ -5,9 +5,10 @@ window.addEventListener('scroll', () => {
     const scrollPos = window.scrollY;
     if(scrollPos > main.offsetTop) {
         header.classList.add('nav-bar-transparent');
-        
+        document.getElementById("nav-bar").id = "nav-bar-transparent";
     } else {
         header.classList.remove('nav-bar-transparent');
+        document.getElementById("nav-bar-transparent").id = "nav-bar";
         
     }
 });
