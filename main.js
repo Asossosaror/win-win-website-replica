@@ -9,6 +9,19 @@ window.addEventListener('scroll', () => {
     } else {
         header.classList.remove('nav-bar-transparent');
         document.getElementById("nav-bar-transparent").id = "nav-bar";
-        
     }
+});
+
+$(document).ready(function(){
+    $('.main-slider').slick({
+        autoplay: true,
+        arrows: true,
+        dots: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        prevArrow: 'div',
+        nextArrow: '<div><i class="fa-solid fa-chevron-right arrow"></i></div>'
+    });
 });
