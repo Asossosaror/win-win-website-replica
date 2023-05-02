@@ -21,7 +21,5 @@ $(document).ready(function(){
         speed: 500,
         fade: true,
         cssEase: 'linear',
-        prevArrow: 'div',
-        nextArrow: '<div><i class="fa-solid fa-chevron-right arrow"></i></div>'
     });
 });
