@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script src="main.js" defer></script>
+    <script src="main.js" async></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600&display=swap" rel="stylesheet">
@@ -48,7 +48,7 @@
                 <button class="btn">Läs mer</button>
             </div>
         </div>
-        <div class="introduction-div">
+        <div class="introduction-div" id="introduction-div">
             <h1 id="introduction-h1">En byrå att växa med</h1>
             <p class="bold" id="introduction-p">Win-Win Ekonomi är en redovisningsbyrå i Stockholm som du kan växa och utvecklas med, både som företag och företagare. Genom ett modernt digitalt arbetssätt kan vi hjälpa dig oavsett var du befinner dig. Utöver det erbjuder vi dig en hög grad av personlig service.</p>
             <div id="two-column-container">
@@ -77,6 +77,7 @@
             <div id="top-image-container">
                 <img id="top-image" src="images/toppen.png" alt="">
             </div>
+            <div class="slick-prev"><img src="images/chevron-left-solid-white.svg" alt="Left arrow" id="left-arrow" class="arrow"></div>
             <div id="main-slider" class="main-slider">
                 <div class="slide">
                     <div class="slide-content">
@@ -88,15 +89,16 @@
                     </div>
                 <div class="slide">
                     <div class="slide-content">
-                        <p class="slide-p">"Väldigt lätt att ställa frågor och get bra feedback och hjälp med bokföringen och företaget i allmänhet."</p><p class="slide-p">Mattias E</p></div>
+                        <p class="slide-p">"Väldigt lätt att ställa frågor och få bra feedback och hjälp med bokföringen och företaget i allmänhet."</p><p class="slide-p">Mattias E</p></div>
                     </div>
             </div>
-            <div class="slick-prev"><i class="fa-solid fa-chevron-left arrow"></i></div>
-            <div class="slick-next"><i class="fa-solid fa-chevron-right arrow"></i></div>
-            <div id="bottom-image">
+            
+            <div class="slick-next"><img src="images/chevron-right-solid-white.svg" alt="Right arrow" id="right-arrow" class="arrow"></div>
+            <div id="bottom-image-container">
                 <img src="images/botten.png" alt="">
             </div>
         </div>
+        <iframe src="https://widget.reco.se/v2/partner/winwin?mode=SMALL" frameborder="0"></iframe>
     </main>
 </body>
 </html>

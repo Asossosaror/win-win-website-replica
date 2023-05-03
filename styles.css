@@ -71,6 +71,7 @@ p {
     background-color: rgba(255, 255, 255, 0.6);
     position: fixed;
     transition: background-color 0.3s ease-in-out;
+    z-index: 69;
 }
 
 #nav-bar-logo-img {
@@ -177,7 +178,7 @@ a.current-green {
     color: #555555;
 }
 
-.introduction-div {
+#introduction-div {
     background-color: white;
     z-index: 10;
     position: relative;
@@ -236,6 +237,10 @@ a.current-green {
     margin-top: 10px;
 }
 
+#customer-reviews {
+    position: relative;
+}
+
 #top-image-container {
     margin-top: 100px;
     background-color: rgb(169, 198, 0);
@@ -246,7 +251,7 @@ a.current-green {
 
 #main-slider {
     background-color: rgb(169, 198, 0);
-    min-height: 350px;
+    min-height: 300px;
 }
 
 .main-slider {
@@ -260,14 +265,17 @@ a.current-green {
 }
 
 .slide-content {
+    padding-top: 40px;
     max-width: 800px;
-    margin: 0 auto;
+    margin-left: 27%;
+    margin-right: 44%;
     text-align: left;
 }
 
 .slide-p {
-    font-size: 20px;
-    line-height: 1.5;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
     margin-bottom: 10px;
     color: #FFFFFF;
     text-align: left;
@@ -276,30 +284,71 @@ a.current-green {
 /* Style the previous arrow */
 .slick-prev.slick-arrow {
     all: unset;
+    display: inline-block;
     position: absolute;
-    left: 10px;
+    margin: auto 0;
+    left: 35px;
+    padding: 10px;
+    width: fit-content;
     z-index: 1;
     font-size: 24px;
-    color: #fff;
     cursor: pointer;
-    border: 5px solid rgb(255, 0, 0);
-  }
-  
-  /* Style the next arrow */
-  .slick-next.slick-arrow {
-    all: unset;
-    position: absolute;
-    right: 10px;
-    z-index: 1;
-    font-size: 24px;
-    color: #fff;
-    cursor: pointer;
-    border: 5px solid rgb(255, 0, 0);
-  }
+    top: 50%;
+    transform: translateY(-50%);
+    transition: opacity 300ms ease-in-out;
+}
 
-i.arrow {
-    height: 25px;
-    
+.slick-prev.slick-arrow::before {
+    content: '';
+    display: inline-block;
+    background-image: none;
+}
+
+.slick-prev.slick-arrow:hover {
+    opacity: 0.6;
+}
+
+/* Style the next arrow */
+.slick-next.slick-arrow {
+    all: unset;
+    display: inline-block;
+    position: absolute;
+    margin: auto 0;
+    right: 35px;
+    padding: 10px;
+    width: fit-content;
+    z-index: 1;
+    font-size: 24px;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: opacity 300ms ease-in-out;
+}
+
+.slick-next.slick-arrow::before {
+    content: '';
+    display: inline-block;
+    background-image: none;
+}
+
+.slick-next.slick-arrow:hover {
+    opacity: 0.6;
+}
+
+.arrow {
+    height: 35px;
+}
+
+
+
+
+
+#bottom-image-container {
+    margin-bottom: 100px;
+    background-color: rgb(169, 198, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   
 
