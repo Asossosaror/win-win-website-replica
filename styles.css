@@ -239,6 +239,7 @@ a.current-green {
 
 #customer-reviews {
     position: relative;
+    background-color: rgb(169, 198, 0);
 }
 
 #top-image-container {
@@ -247,6 +248,14 @@ a.current-green {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#main-slider-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 #main-slider {
@@ -267,8 +276,7 @@ a.current-green {
 .slide-content {
     padding-top: 40px;
     max-width: 800px;
-    margin-left: 27%;
-    margin-right: 44%;
+    margin-left: 0;
     text-align: left;
 }
 
@@ -279,6 +287,7 @@ a.current-green {
     margin-bottom: 10px;
     color: #FFFFFF;
     text-align: left;
+    width: 720px;
 }
 
 /* Style the previous arrow */
@@ -339,10 +348,6 @@ a.current-green {
     height: 35px;
 }
 
-
-
-
-
 #bottom-image-container {
     margin-bottom: 100px;
     background-color: rgb(169, 198, 0);
@@ -350,7 +355,15 @@ a.current-green {
     justify-content: center;
     align-items: center;
 }
-  
+
+#reco-iframe {
+    width: 230px;
+    bottom: 0;
+    right: 0;
+    margin-left: 50px;
+    position: absolute;
+    margin-bottom: -35px;
+}
 
 /*
 .slick-next.slick-arrow > i.arrow, .slick-prev.slick-arrow > i.arrow{
