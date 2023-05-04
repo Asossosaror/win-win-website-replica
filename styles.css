@@ -409,3 +409,35 @@ a.current-green {
     position: static;
     max-width: 860px;
 }
+
+/* Footer */
+footer {
+    background-color: #42424A;
+}
+
+footer h2 {
+    color: #FFFFFF;
+}
+
+footer h2:hover {
+    color: #a9c600;
+}
+
+footer p, footer p.bold {
+    color: #d3d3d3;
+}
+
+footer a.white-green-a {
+    text-decoration: none;
+    color: #d3d3d3;
+}
+
+.white-green-a:hover {
+    text-decoration: dashed;
+    color: #a9c600;
+}
+
+.social-media-icon {
+    width: 45px;
+    padding: 10px;
+}
