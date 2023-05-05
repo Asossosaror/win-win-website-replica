@@ -1,5 +1,6 @@
 const navBar = document.querySelector('#nav-bar');
 const main = document.querySelector('main');
+const navBarLogo = document.querySelector('#nav-bar-logo-img');
 
 window.addEventListener('scroll', () => {
     const scrollPos = window.scrollY;
