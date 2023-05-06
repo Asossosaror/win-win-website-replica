@@ -38,6 +38,11 @@ p {
     font-size: 16px;
 }
 
+::selection {
+    color: #FFFFFF;
+    background: #a9c600;
+}
+
 .bold {
     font-size: 17px;
     font-weight: 600;
