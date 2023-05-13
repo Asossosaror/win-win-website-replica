@@ -113,6 +113,14 @@ a:hover {
     opacity: 1;
 }
 
+.nav-bar-a {
+    text-decoration: none;
+}
+
+.nav-bar-a:hover {
+    text-decoration: none;
+}
+
 .nav-bar-a span {
     pointer-events: all;
     opacity: 1;
@@ -692,4 +700,69 @@ footer a.white-green-a {
 
 .half-text p {
     text-align: left;
+}
+
+/* Contact form */
+.contact-form-container {
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+#contact-form-top-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form-container h2 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.contact-form {
+    width: 100%;
+    text-align: center;
+}
+
+.input-in-form {
+    height: 2rem;
+    width: 550px;
+    border: none;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    text-indent: 5px;
+}
+
+.input-in-form:focus {
+    outline: none;
+    border-bottom: solid black 3px;
+}
+
+.input-in-form::placeholder {
+    color: #a9c600;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#contact-form-textarea {
+    resize: none;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.contact-form-btn {
+    width: 550px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+    background-color: #a9c600;
+    border: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    transition: background-color 50ms ease-in-out;
+}
+
+.contact-form-btn:hover {
+    background-color: rgb(132, 164, 3);
+    transition: background-color 50ms ease-in-out;
 }
