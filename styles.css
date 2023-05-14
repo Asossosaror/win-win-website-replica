@@ -888,3 +888,92 @@ footer a.white-green-a {
     display: flex;
     justify-content: center;
 }
+
+/* "Kontakt"-page */
+#hero-img-container-contact {
+    width: 100%;
+    background-image: url(images/kontakt_hero.jpg);
+    height: 550px;
+    background-position: center center;
+    background-size: cover;
+}
+
+#contact-us-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1300px;
+    min-height: 600px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#contact-us-text {
+    max-width: 600px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#contact-us-text h2 {
+    text-align: left;
+}
+
+#contact-information-container {
+    padding-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+#contact-information-container p {
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+
+#contact-information-container p.bold {
+    margin-bottom: 15px;
+}
+
+#contact-information {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-information a {
+    margin-bottom: -7px;
+}
+
+#contact-us-form-container {
+    max-width: 500px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, .15);
+    background-color: #f8f8f8;
+    padding: 30px 0;
+    display: inline-block;
+}
+
+.input-in-form-contact {
+    height: 2rem;
+    border: none;
+    max-width: 440px;
+    width: calc(100% - 90px);
+    margin: 0 45px 30px 45px;
+    padding-left: 5px;
+    text-indent: 5px;
+}
+
+.input-in-form-contact:focus {
+    outline: none;
+    border-bottom: solid black 3px;
+}
+
+.input-in-form-contact::placeholder {
+    color: #a9c600;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#contact-us-form-btn {
+    width: calc(100% - 83px);
+    margin: 0 45px 0px 45px;
+}
