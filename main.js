@@ -58,3 +58,37 @@ function scrollToTop() {
         behavior: "smooth",
     });
 }
+
+// Create the grid of colleagues on the "Kontakt"-page dynamically
+fetch('colleagues_data.json')
+    .then(response => response.json())
+    .then(data => {
+        for (const key in data) {
+            console.log(data[key]["name"]);
+            let grid = document.getElementById("our-colleagues-grid");
+            let gridItem = document.createElement("div");
+            let img = document.createElement("img");
+            let h3Name = document.createElement("h3");
+            let positionWork = document.createElement("p");
+            let email = document.createElement("p");
+            let phoneNum = document.createElement("p");
+            gridItem.className = "our-colleagues-grid-item";
+            img.className = "our-colleagues-grid-item-img";
+            img.src = data[key]["img"];
+            h3Name.innerHTML = data[key]["name"];
+            positionWork.innerHTML = data[key]["position"];
+            email.className = "small";
+            email.innerHTML = data[key]["email"];
+            phoneNum.className = "small";
+            phoneNum.innerHTML = data[key]["phone_num"];
+            gridItem.appendChild(img);
+            gridItem.appendChild(h3Name);
+            gridItem.appendChild(positionWork);
+            gridItem.appendChild(email);
+            gridItem.appendChild(phoneNum);
+            grid.appendChild(gridItem);
+        }
+    })
+    .catch(error => {
+        console.log('There was an error loading data: ', error)
+    })

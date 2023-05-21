@@ -1,0 +1,86 @@
+{
+    "c1": {
+        "img": "images/winwin_personalbild_generell.jpg",
+        "name": "Amanda Melbe-Nyberg",
+        "position": "HR Specialist",
+        "email": "amn@winwin-ekonomi.se",
+        "phone_num": "08-684 496 57"
+    },
+    "c2": {
+        "img": "images/winwin_personalbild_generell.jpg",
+        "name": "Annica Linder Lindström",
+        "position": "Redovisningskonsult",
+        "email": "all@winwin-ekonomi.se",
+        "phone_num": "08-684 494 60"
+    },
+    "c3": {
+        "img": "images/Anton_D.jpg",
+        "name": "Anton Dahlborg",
+        "position": "Kontorsassistent",
+        "email": "ad@winwin-ekonomi.se",
+        "phone_num": "08-684 494 60"
+    },
+    "c4": {
+        "img": "images/Bengt_R.jpg",
+        "name": "Bengt Rybank",
+        "position": "Redovisningskonsult",
+        "email": "br@winwin-ekonomi.se",
+        "phone_num": "08-684 496 55"
+    },
+    "c5": {
+        "img": "images/winwin_personalbild_generell.jpg",
+        "name": "Camilla Johannesson",
+        "position": "Redovisningskonsult (storbolag)",
+        "email": "cj@winwin-ekonomi.se",
+        "phone_num": "08-684 4924 67"
+    },
+    "c6": {
+        "img": "images/winwin_personalbild_generell.jpg",
+        "name": "Catarina Forss Lindroth",
+        "position": "Redovisningskonsult (internationella teamet)",
+        "email": "cfl@winwin-ekonomi.se",
+        "phone_num": "08-684 492 57"
+    },
+    "c7": {
+        "img": "images/Cathrine_KH.jpg",
+        "name": "Cathrine Karlsson Hallestrand",
+        "position": "Kontorsassistent",
+        "email": "ckh@winwin-ekonomi.se",
+        "phone_num": "08-684 494 60"
+    },
+    "c8": {
+        "img": "images/Chara_P.jpg",
+        "name": "Chara Perperi",
+        "position": "Lönekonsult",
+        "email": "cp@winwin-ekonomi.se",
+        "phone_num": "08-684 492 40"
+    },
+    "c9": {
+        "img": "images/winwin_personalbild_generell.jpg",
+        "name": "Charlotte Laurell",
+        "position": "Teamleader (Internationella teamet och Storbolagsteamet). VD Win-Win Interim.",
+        "email": "cla@winwin-ekonomi.se",
+        "phone_num": "08-684 492 66"
+    },
+    "c10": {
+        "img": "images/Christina_L.jpg",
+        "name": "Christina Lindén",
+        "position": "Redovisningskonsult",
+        "email": "cl@winwin-ekonomi.se",
+        "phone_num": "08-684 492 52"
+    },
+    "c11": {
+        "img": "images/Daniele_DV.jpg",
+        "name": "Daniele di Valentino",
+        "position": "Redovisningskonsult (internationella teamet)",
+        "email": "ddv@winwin-ekonomi.se",
+        "phone_num": "08-684 492 54"
+    },
+    "c12": {
+        "img": "images/Elda_P.jpg",
+        "name": "Elda Palmqvist",
+        "position": "Kontorsassistent",
+        "email": "ep@winwin-ekonomi.se",
+        "phone_num": "08-684 494 60"
+    }
+}
